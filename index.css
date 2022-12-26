@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'love';
+    src: url(fonts/BebasNeue-Regular.ttf)
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.seção{
+
+    background-color: #fff46f;
+    display: flex;
+    height: 7rem;
+    /*height: 90px;*/
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+
+    
+    
+
+}
+
+
+
+#logo{
+height: 95%;
+
+}
+
+
+#letra{
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    border: 2px solid green;
+    font-family: 'love';
+   /* -webkit-text-stroke: medium;*/
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    
+    
+
+
+}
+
+
+.tela{
+    display: flex;
+    width: 100%;
+    height: 53rem;
+    /*height: 535px;*/
+    background-image: url(imagens/casa\ marela.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: center; */
+    /*opacity: 0.78;*/
+    background-position: center;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+.vida{
+    /* opacity: 0.0;*/
+    /*height: 200px;*/
+    height: 14rem;
+}
+
+
+#falas{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    height: 20rem;
+    /*height: 430px;*/
+    width: 35%;
+    border: 5px solid #fff46f;
+    text-align: start;
+    margin-left: -190px;
+
+}
+
+
+.sonho{
+   text-align: center;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+   color: black;
+   font-size: xxx-large;
+   text-shadow: -1px 0px 20px #e4ff00;
+   font-weight: 300;
+
+
+
+}
+
+.texto{
+    /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;*/
+    font-family: 'love';
+    color: white;
+    text-shadow: 0 0 5px black;
+   font-weight: 500;
+   text-align: center;
+   font-size: x-large;
+
+      
+    
+
+
+}
